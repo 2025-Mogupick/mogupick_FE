@@ -145,7 +145,11 @@ export default function ProductDetail({
           setIntroOpen(false);
           setFlowOpen(true); // Step2 BottomSheet 열기
         }}
+<<<<<<< HEAD
         onLike={() => console.log('좋아요 클릭')}
+=======
+        onLike={() => {}}
+>>>>>>> 138e762993a3fefba3369daf8019405ca268cc86
         isLiked={false}
       /> */}
 
@@ -157,7 +161,10 @@ export default function ProductDetail({
         pricePerItem={product.price}
         productId={product.id}
         onConfirm={({ firstDeliveryDate, subscriptionOptionText }) => {
+<<<<<<< HEAD
           console.log('확정 완료:', firstDeliveryDate, subscriptionOptionText);
+=======
+>>>>>>> 138e762993a3fefba3369daf8019405ca268cc86
           // TODO: 장바구니 페이지로 이동 등 처리
         }}
       /> */}
